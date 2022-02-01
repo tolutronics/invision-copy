@@ -12,10 +12,10 @@ nb-sidebar[tag="right"] {
   width: 20.5% !important;
   box-shadow: none;
   background-image: url("../assets/sidebar2.png");
-  background-position: center;
+  //   background-position: center;
   background-size: cover;
   background-color: rgb(245 245 245);
-  margin: 0 0 0 30px;
+  margin: 0 0 0 20px;
 }
 #subheader > nav {
   box-shadow: none !important;
@@ -59,12 +59,13 @@ input::placeholder {
   & > li {
     list-style: none;
     font-size: 16px;
-    padding: 10px 10px 5px 10px;
+    padding: 5px 0;
+    margin-right: 30px;
     color: rgb(133, 130, 130);
   }
   & > li:hover {
     cursor: pointer;
-    color: red;
+    color: rgb(243 78 3);
   }
   & > li.first {
     font-weight: bolder;
@@ -108,38 +109,38 @@ input::placeholder {
   }
 }
 
-.powered-by p {
-  position: relative;
-  color: #000;
-  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
-    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 17px;
-  margin: 0;
-}
+// .powered-by p {
+//   position: relative;
+//   color: #000;
+//   font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+//     BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+//   font-size: 13px;
+//   font-weight: 500;
+//   line-height: 17px;
+//   margin: 0;
+// }
 
-.powered-by {
-  position: absolute;
-  left: 23px;
-  bottom: 20px;
-  height: 44px;
-  width: 168px;
-  cursor: pointer;
-  background-color: #fff;
-  border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.8;
-  transition: all 0.5s ease;
+// .powered-by {
+//   position: fixed;
+//   left: 23px;
+//   bottom: 20px;
+//   height: 44px;
+//   width: 168px;
+//   cursor: pointer;
+//   background-color: #fff;
+//   border-radius: 100px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   opacity: 0.8;
+//   transition: all 0.5s ease;
 
-  padding: 0;
+//   padding: 0;
 
-  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%), 0 0 1px 0 rgb(0 0 0 / 20%);
-  & > img {
-  }
-}
-.powered-by:hover {
-  opacity: 1;
-}
+//   box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%), 0 0 1px 0 rgb(0 0 0 / 20%);
+//   & > img {
+//   }
+// }
+// .powered-by:hover {
+//   opacity: 1;
+// }

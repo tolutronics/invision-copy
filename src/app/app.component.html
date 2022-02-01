@@ -7,7 +7,7 @@
           <li class="first">All</li>
           <li>Outstanding</li>
           <li>Paid</li>
-          <li>More</li>
+          <li>More <fa-icon class="mr-10" [icon]="chevronDown"></fa-icon></li>
         </ul>
       </div>
       <div class="rightHeader">
@@ -27,11 +27,11 @@
 
   <nb-layout-column class="colored-column-basic">
     <router-outlet></router-outlet>
-    <div class="powered-by">
+    <!-- <div class="powered-by">
       <img src="../assets/logo.png" width="30px" />
 
       <p>Made in InVision</p>
-    </div>
+    </div> -->
   </nb-layout-column>
   <nb-sidebar right tag="right"></nb-sidebar>
 </nb-layout>
