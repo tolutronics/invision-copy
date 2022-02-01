@@ -3,21 +3,18 @@
   height: 100%;
 }
 .toolbar {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  & > .status {
-    width: fit-content;
-    height: fit-content;
-    border-radius: 25pc;
-    border: 1px solid rgb(187, 185, 185);
-    padding: 5px;
-    font-size: 12px;
-  }
+  background-image: url("../../../assets/toolbar.png");
+  background-position: center;
+  background-size: cover;
+  //   height: 50px;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 .filters {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  & > p {
+    margin: 0;
+  }
 }

@@ -1,9 +1,8 @@
 <div class="body">
-  <div class="toolbar">
-    <div class="status">Status</div>
-    <div class="filters">
-      <div>1</div>
-      <div>2</div>
-    </div>
-  </div>
+  <div class="toolbar"></div>
+
+  <app-request-card
+    *ngFor="let item of list"
+    [cardData]="item"
+  ></app-request-card>
 </div>

@@ -1,0 +1,37 @@
+<div class="card">
+  <div class="leftSection">
+    <div class="tag" [style.background-color]="cardData.tagColor"></div>
+    <div class="description">
+      <div class="top flex align-center">
+        <h6 class="mr-10">{{ cardData.title }}</h6>
+        <fa-icon class="circleIcon mr-10" [icon]="circle"></fa-icon>
+        <h6>{{ cardData.price }}</h6>
+      </div>
+      <div class="bottom flex">
+        <span class="mr-15">{{ cardData.id }}</span>
+        <fa-icon class="circleIcon mr-15" [icon]="circle"></fa-icon>
+        <span class="mr-15">{{ cardData.date }}</span>
+        <fa-icon class="circleIcon mr-15" [icon]="circle"></fa-icon>
+        <span>{{ cardData.description }}</span>
+      </div>
+    </div>
+  </div>
+  <div class="rightSection">
+    <div class="date">{{ cardData.status }}</div>
+    <div class="task flex align-center">
+      <div class="flex align-center">
+        <fa-icon
+          class="taskCircle mr-10"
+          [style.color]="cardData.tagColor"
+          [icon]="circle"
+        ></fa-icon>
+        <span>{{ cardData.action }}</span>
+      </div>
+
+      <fa-icon class="mr-10" [icon]="chevronDown"></fa-icon>
+    </div>
+    <div class="menu">
+      <fa-icon class="" [icon]="ellipsis"></fa-icon>
+    </div>
+  </div>
+</div>
