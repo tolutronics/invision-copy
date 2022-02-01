@@ -1,1 +1,27 @@
+@import "themes";
+
+@import "~@nebular/theme/styles/globals";
+
+@include nb-install() {
+  @include nb-theme-global();
+}
+
+nb-layout-header > nav {
+  height: 100% !important;
+  padding-bottom: 0 !important;
+  box-shadow: none !important;
+}
+.nb-theme-default nb-layout .layout {
+  background: rgb(245 245 245) !important;
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("assets/fonts/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("assets/fonts/Helvetica.ttf");
+}
 /* You can add global styles to this file, and also import other style files */

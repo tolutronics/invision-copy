@@ -1,0 +1,23 @@
+.body {
+  background: rgb(245 245 245);
+  height: 100%;
+}
+.toolbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  & > .status {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 25pc;
+    border: 1px solid rgb(187, 185, 185);
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
