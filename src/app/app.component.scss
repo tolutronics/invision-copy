@@ -107,3 +107,36 @@ input::placeholder {
     border-radius: 50%;
   }
 }
+
+.powered-by p {
+  position: relative;
+  color: #000;
+  font-family: "Inv Maison Neue", "Maison Neue", -apple-system,
+    BlinkMacSystemFont, "Open Sans", open-sans, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+  margin: 0;
+}
+
+.powered-by {
+  position: absolute;
+  left: 23px;
+  bottom: -20px;
+  height: 44px;
+  width: 168px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+
+  padding: 0;
+
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%), 0 0 1px 0 rgb(0 0 0 / 20%);
+  & > img {
+  }
+}
